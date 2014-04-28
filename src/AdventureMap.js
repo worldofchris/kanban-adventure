@@ -30,7 +30,7 @@ var adventure_map = {
             "content": {
               "image": "resources/bits-on-a-disc.jpg"
             },
-            "links": ["kanban-board", "story-map", "feedback"],
+            "links": ["kanban-board", "story-map"],
             "notes": ["Don Reinertsen Quote"]
         },
         {
@@ -90,23 +90,21 @@ var adventure_map = {
                       "It's four batches of apple juice."]
         },
         {
-            "name": "feedback",
-            "title": "Feedback",
-            "content": {
-              "image": "resources/failing-tests.jpg"
-            },
-            "notes": ["All software is Proof Of Concept",
-                      "TDD enables you to endlessly defer commitment",
-                      "It is _soft_ ware after all."],
-            "background-color": "lightgreen",
-            "links": ["local-optima", "quality"]
-        },
-        {
             "name": "predict-throughput",
             "title": "Predict Throughput",
-            "links": ["new-project-throughput"],
+            "links": ["avg-throughput"],
             "content": {
               "image": "resources/historic-throughput.jpg"
+            },
+            "notes": ["How quickly are we going to get through this?",
+                      ""]
+        },
+        {
+            "name": "avg-throughput",
+            "title": "Average Throughput",
+            "links": ["new-project-throughput"],
+            "content": {
+              "image": "resources/avg-throughput.jpg"
             },
             "notes": ["How quickly are we going to get through this?",
                       ""]
